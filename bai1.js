@@ -1,0 +1,10 @@
+inputLy=prompt("Nhap diem Vat Ly");
+inputHoa=prompt("Nhap diem Hoa Hoc");
+inputSinh=prompt("Nhap diem Sinh Hoc");
+let ly=parseFloat(inputLy);
+let hoa=parseFloat(inputHoa);
+let sinh=parseFloat(inputSinh);
+let avg=(ly+hoa+sinh)/3;
+let total=ly+hoa+sinh;
+document.write("Diem trung binh la: "+avg+"<br>");
+document.write("Diem tong la: "+total);
